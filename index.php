@@ -112,7 +112,7 @@ include "config.php";
             <div class="row justify-content-between gy-5">
                 <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
                     <h2 data-aos="fade-up">Get Your Desired<br>Favourite Outfit</h2>
-                    <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+                    <p data-aos="fade-up" data-aos-delay="100">Discover carefully curated fashion pieces designed to elevate your everyday look with confidence and comfort</p>
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
                     <img src="assets/img/background.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
@@ -137,17 +137,18 @@ include "config.php";
                     <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                         <div class="content ps-0 ps-lg-5">
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                                F&L Boutique is a fashion brand dedicated to delivering modern and timeless apparel for everyday wear.
+                                Our goal is to help you look confident and feel comfortable, no matter the occasion
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                <li><i class="bi bi-check2-all"></i> High-quality fabrics and materials</li>
+                                <li><i class="bi bi-check2-all"></i> Modern and versatile designs</li>
+                                <li><i class="bi bi-check2-all"></i> Affordable prices without compromising quality</li>
+                                <li><i class="bi bi-check2-all"></i> Customer-focused shopping experience</li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                                We believe that style is a powerful form of self-expression, which is why every piece in our collection
+								is carefully selected with attention to quality, comfort, and design
                             </p>
 
                             <div class="position-relative mt-4">
@@ -169,8 +170,7 @@ include "config.php";
                         <div class="why-box">
                             <h3>Why Choose F&L Boutique Store?</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                                At F&L Boutique, we are committed to providing premium fashion products that combine quality, style, and affordability. Our collections are designed to suit modern lifestyles while remaining timeless and versatile
                             </p>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ include "config.php";
                                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                                     <!-- <i class="bi bi-clipboard-data"></i> -->
                                     <h4>Best Quality</h4>
-                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    <p>We use carefully selected materials and maintain high production standards to ensure every product meets our quality expectations</p>
                                 </div>
                             </div>
                             <!-- End Icon Box -->
@@ -191,7 +191,7 @@ include "config.php";
                                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                                     <!-- <i class="bi bi-gem"></i> -->
                                     <h4>Affordable Price</h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    <p>We believe great style should be accessible. Our pricing is designed to offer value without sacrificing quality</p>
                                 </div>
                             </div>
                             <!-- End Icon Box -->
@@ -200,7 +200,7 @@ include "config.php";
                                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                                     <!-- <i class="bi bi-inboxes"></i> -->
                                     <h4>Best Services</h4>
-                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    <p>Our team is dedicated to providing friendly support and a smooth shopping experience from start to finish</p>
                                 </div>
                             </div>
                             <!-- End Icon Box -->
@@ -318,6 +318,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -342,6 +351,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -367,6 +385,15 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
+                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <button class="btn btn-outline-dark btn-sm" disabled>
+                                                Add to Cart
+                                            </button>
+
+                                            <button class="btn btn-dark btn-sm" disabled>
+                                                Buy Now
+                                            </button>
+                                        </div>
                                     </div>
                                     <!-- Menu Item -->
                                     <?php
@@ -415,6 +442,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -439,6 +475,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -464,6 +509,15 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
+                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <button class="btn btn-outline-dark btn-sm" disabled>
+                                                Add to Cart
+                                            </button>
+
+                                            <button class="btn btn-dark btn-sm" disabled>
+                                                Buy Now
+                                            </button>
+                                        </div>
                                     </div>
                                     <!-- Menu Item -->
                                     <?php
@@ -512,6 +566,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -536,6 +599,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -561,6 +633,15 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
+                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <button class="btn btn-outline-dark btn-sm" disabled>
+                                                Add to Cart
+                                            </button>
+
+                                            <button class="btn btn-dark btn-sm" disabled>
+                                                Buy Now
+                                            </button>
+                                        </div>
                                     </div>
                                     <!-- Menu Item -->
                                     <?php
@@ -609,6 +690,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -633,6 +723,15 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
+                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                                <button class="btn btn-outline-dark btn-sm" disabled>
+                                                    Add to Cart
+                                                </button>
+
+                                                <button class="btn btn-dark btn-sm" disabled>
+                                                    Buy Now
+                                                </button>
+                                            </div>
                                         </div>
                                         <!-- Menu Item -->
                                         <?php
@@ -658,6 +757,15 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
+                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <button class="btn btn-outline-dark btn-sm" disabled>
+                                                Add to Cart
+                                            </button>
+
+                                            <button class="btn btn-dark btn-sm" disabled>
+                                                Buy Now
+                                            </button>
+                                        </div>
                                     </div>
                                     <!-- Menu Item -->
                                     <?php
@@ -773,17 +881,15 @@ include "config.php";
                     <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                         <div class="content ps-0 ps-lg-5">
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                                Join our team and be part of a dynamic environment where creativity, collaboration, and personal growth are encouraged
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                <li><i class="bi bi-check2-all"></i> Creative and supportive work environment</li>
+                                <li><i class="bi bi-check2-all"></i> Opportunities for personal and professional growth</li>
+                                <li><i class="bi bi-check2-all"></i> Collaborative and passionate team culture</li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                                At F&L Boutique, we believe that people are the heart of our brand. We are always looking for passionate, creative, and motivated individuals to grow together with us
                             </p>
 
                             <div class="position-relative mt-4">
