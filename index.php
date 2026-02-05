@@ -318,7 +318,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -351,7 +351,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -385,7 +385,7 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
-                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                        <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                             <button class="btn btn-outline-dark btn-sm" disabled>
                                                 Add to Cart
                                             </button>
@@ -442,7 +442,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -475,7 +475,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -509,7 +509,7 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
-                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                        <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                             <button class="btn btn-outline-dark btn-sm" disabled>
                                                 Add to Cart
                                             </button>
@@ -566,7 +566,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -599,7 +599,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -633,7 +633,7 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
-                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                        <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                             <button class="btn btn-outline-dark btn-sm" disabled>
                                                 Add to Cart
                                             </button>
@@ -690,7 +690,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $dcPrice; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -723,7 +723,7 @@ include "config.php";
                                             <p class="price">
                                                 RM <?php echo $row['price']; ?>
                                             </p>
-                                            <div class="d-flex justify-content-center gap-2 mt-3">
+                                            <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                                 <button class="btn btn-outline-dark btn-sm" disabled>
                                                     Add to Cart
                                                 </button>
@@ -757,7 +757,7 @@ include "config.php";
                                         <p class="price">
                                             RM <?php echo $row['price']; ?>
                                         </p>
-                                        <div class="d-flex justify-content-center gap-2 mt-3">
+                                        <div class="d-flex justify-content-center gap-2 mt-3 product-actions">
                                             <button class="btn btn-outline-dark btn-sm" disabled>
                                                 Add to Cart
                                             </button>
