@@ -18,9 +18,11 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'first_name',
+        'last_name',
         'email',
         'password',
+        'role_id'
     ];
 
     /**
@@ -40,5 +42,48 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'password'=>'hashed',
     ];
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    public function reviews()
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function sharedMessages()
+    {
+        return $this->hasMany(SharedMessage::class);
+    }
+
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
+
+    // Role Helpers
+    public function isAdmin()
+    {
+        return $this->role_id === 1;
+    }
+
+    public function isLoyalCustomer()
+    {
+        return $this->role_id === 2;
+    }
+
+    public function isCustomer()
+    {
+        return $this->role_id === 3;
+    }
+
+    // Full Name Accessor
+    public function getFullNameAttribute()
+    {
+        return $this->first_name . ' ' . $this->last_name;
+    }
 }
