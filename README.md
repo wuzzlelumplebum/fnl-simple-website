@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -63,4 +63,66 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+# 🛒 E-Commerce Web Application (Laravel) — In Progress
+
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Tech](https://img.shields.io/badge/backend-PHP-blue)
+![Database](https://img.shields.io/badge/database-MySQL-orange)
+
+## 📌 Overview
+
+This project is an **E-Commerce Web Application** currently under development. It is designed to handle product management, user authentication, and transaction-related processes through a structured and scalable system.
+
+The goal of this project is to build a solid foundation for an online store while applying backend development best practices such as modular coding, data validation, and maintainability.
+
+---
+
+## 🚧 Work in Progress
+
+This project is actively being developed and continuously improved. Some features are still incomplete or may change over time.
+
+---
+
+## 🧱 Tech Stack
+
+* **Framework:** Laravel
+* **Backend:** PHP
+* **Frontend:** Blade, HTML, CSS
+* **Database:** MySQL
+
+---
+
+## 🧠 Development Approach
+
+This project follows fundamental software development best practices:
+
+* MVC Architecture (Model-View-Controller)
+* Routing & Middleware separation
+* Eloquent ORM for database interaction
+* Form validation and error handling
+* Clean and maintainable code structure
+
+---
+
+## ⚠️ Disclaimer
+
+This project is **not production-ready** and is intended for learning, experimentation, and portfolio purposes.
+
+---
+
+## 📅 Status
+
+🟡 Ongoing Development
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Yanuar Cahya Pratama**
+Backend Developer (Junior) | Data Enthusiast
+
+---
+
+⭐ Feel free to explore the project and check back for future updates!
