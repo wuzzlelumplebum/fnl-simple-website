@@ -68,8 +68,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # 🛒 E-Commerce Web Application (Laravel) — In Progress
 
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![Tech](https://img.shields.io/badge/backend-PHP-blue)
-![Database](https://img.shields.io/badge/database-MySQL-orange)
+![Framework](https://img.shields.io/badge/framework-Laravel-FF2D20?logo=laravel&logoColor=white)
+![Backend](https://img.shields.io/badge/backend-PHP-777BB4?logo=php&logoColor=white)
+![Database](https://img.shields.io/badge/database-MySQL-4479A1?logo=mysql&logoColor=white)
 
 ## 📌 Overview
 
