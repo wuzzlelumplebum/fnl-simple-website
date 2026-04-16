@@ -10,7 +10,7 @@ $pct=$currentStep>0?($currentStep/(count($steps)-1))*100:0;
     {{-- Filled track --}}
     <div style="position:absolute;top:16px;left:0;width:{{ $pct }}%;height:4px;background:#1A1A2E;z-index:1"></div>
 
-    @foreach (['Menunggu','Dikonfirmasi','Diproses','Dikirim','Diterima'] as $i => $label)
+    @foreach (['Waiting','Confirmed','Processing','Shipped','Delivered'] as $i => $label)
     @php $done = $i <= $currentStep; @endphp
     <div class="d-flex flex-column align-items-center" style="z-index:2;flex:1">
         <div class="rounded-circle d-flex align-items-center justify-content-center"

@@ -4,12 +4,12 @@ use App\Models\Order;
 class OrderTrackingService
 {
     private const MESSAGES = [
-        'pending'    => ['title'=>'Pesanan Masuk',           'description'=>'Menunggu konfirmasi pembayaran.'],
-        'confirmed'  => ['title'=>'Pembayaran Dikonfirmasi',  'description'=>'Penjual akan segera memproses.'],
-        'processing' => ['title'=>'Pesanan Diproses',         'description'=>'Produk sedang dikemas.'],
-        'shipped'    => ['title'=>'Pesanan Dikirim',          'description'=>'Paket dalam perjalanan ke kamu.'],
-        'delivered'  => ['title'=>'Pesanan Diterima',         'description'=>'Selamat! Paket sudah sampai.'],
-        'cancelled'  => ['title'=>'Pesanan Dibatalkan',       'description'=>'Pesanan ini dibatalkan.'],
+        'pending'    => ['title'=>'Order Received',     'description'=>'Waiting for payment confirmation.'],
+        'confirmed'  => ['title'=>'Payment Confirmed',  'description'=>'Seller will process the order soon.'],
+        'processing' => ['title'=>'Order Processing',   'description'=>'Product is being packed.'],
+        'shipped'    => ['title'=>'Order Shipped',      'description'=>'Package is on its way to you.'],
+        'delivered'  => ['title'=>'Order Delivered',    'description'=>'Congratulations! Package has arrived.'],
+        'cancelled'  => ['title'=>'Order Cancelled',    'description'=>'This order has been cancelled.'],
     ];
 
     public function addEvent(Order $order, string $status, string $location=null): void {
