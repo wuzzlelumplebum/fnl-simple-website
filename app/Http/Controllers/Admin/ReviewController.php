@@ -35,7 +35,20 @@ class ReviewController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'rating'     => 'required|integer|between:1,5',
+            'review'     => 'required|string|min:10|max:1000',
+            'product_id' => 'nullable|exists:products,id',
+        ]);
+
+        Review::create([
+            'user_id'    => auth()->id(),
+            'product_id'  => $request->product_id,
+            'rating'      => $request->rating,
+            'review'      => $request->review,
+        ]);
+
+        return redirect()->route('home')->with('success','Review created successfully!');
     }
 
     /**
